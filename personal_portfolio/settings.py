@@ -26,7 +26,7 @@ SECRET_KEY = '@oz&v=-btc8+t_gf0#9(70edv4=+33(t*ru6-e&%we_o(-d(hv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'https://anthony-longo-portfolio.herokuapp.com/']
 
 
 # Application definition
