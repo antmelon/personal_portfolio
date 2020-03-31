@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<div class='row'>
+<div class="col-md-6">
+    <div class="card mb-2">
+        <img class="card-img-top" src="{% static anthony.image %}">
+    </div>
+</div>
+<div class="col-md-5">
+    <h1>About Me</h1>
+    <div class="col-md-20">
+        <p>I am a sophomore Computer Science student at Binghamton University with interests in
+          cybersecurity and data science as well as a minor in music.
+        I am also an aspiring barista and jazz trumpet player when I am not at the computer.</p>
+    </div>
+</div>
+</div>
+{% endblock %}
